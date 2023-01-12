@@ -74,7 +74,7 @@ const handlesubmit = async (e) => {
 
   // fetch data from server -> bot's response
 
-  const response = await fetch('http://localhost:5000', {
+  const response = await fetch('http://192.168.42.131:5000', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json'
