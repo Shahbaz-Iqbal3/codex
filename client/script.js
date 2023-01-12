@@ -76,6 +76,7 @@ const handlesubmit = async (e) => {
 
   const response = await fetch('http://192.168.42.131:5000/', {
     method: 'POST',
+    mode: 'no-cors',
     headers: {
       'Content-Type': 'application/json'
     },
